@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Milagros Rosón | Peace Education Specialist</title>
+<meta name="description" content="Milagros Rosón - Peace Education Specialist. Talleres, consultorías y facilitación en educación para la paz."/>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="brand">
+      <h1>Milagros Rosón <span style="font-size:12px;color:var(--muted);font-family:var(--font-sans);display:block">Peace Education Specialist · Consultora & Facilitadora</span></h1>
+      <nav>
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contacto</a>
+        <a class="btn-link" id="lnkHeader" href="https://www.linkedin.com/in/milagros-roson/" target="_blank" rel="noopener">LinkedIn</a>
+        <button class="langbtn" id="toggleLang">EN</button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="home" class="container">
+  <section class="hero">
+    <h2 class="name" id="nameTitle">Milagros Rosón</h2>
+    <span class="tag" id="heroTag">EDUCACIÓN PARA LA PAZ</span>
+    <p class="phrase" id="heroPhrase">La Educación para la Paz promueve el <strong>desarrollo pleno</strong> y el <strong>bienestar integral</strong>, acompañando a las personas en el desarrollo de habilidades para comprenderse, dialogar y construir bienestar común.</p>
+    <a class="cta" href="#about" id="ctaBtn">Explorar mi trabajo</a>
+  </section>
+
+  <section id="about">
+    <div class="card">
+      <div class="about-flex">
+        <img src="images/portrait.jpg" alt="Milagros Rosón" />
+        <div>
+          <h3>Sobre mí</h3>
+          <p id="aboutTextEs">Soy <strong>Milagros Rosón</strong>, especialista en <strong>Educación para la Paz</strong>, con una Maestría de la <strong>Universidad para la Paz de Naciones Unidas (UPEACE)</strong> y estudios de posgrado en <strong>Liderazgo Humano y Educación Emocional</strong>. Creo y acompaño experiencias de aprendizaje que promueven la empatía, la resiliencia y la acción ética. He trabajado con organizaciones internacionales, escuelas y comunidades en <strong>Argentina, Chile, Costa Rica y Suiza</strong>.<br><br>Mi trabajo se centra exclusivamente en la Educación para la Paz, desde la cual promuevo herramientas para construir una <strong>cultura de paz sostenible</strong>.</p>
+          <p class="muted">Facilito <strong>talleres</strong> y <strong>formaciones</strong> (online y presenciales), realizo <strong>consultoría curricular</strong> y apoyo el <strong>diseño y evaluación de proyectos</strong>.</p>
+          <p><a class="btn-link" id="lnkAbout" href="https://www.linkedin.com/in/milagros-roson/" target="_blank" rel="noopener">Ver LinkedIn</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="card services">
+      <h3>Servicios</h3>
+      <ul>
+        <li><strong>Talleres y formaciones:</strong> Educación para la Paz | Nonviolent Learning | Resilience for a Culture of Peace | Human Leadership | Comunicación No Violenta y SEL (para docentes, jóvenes y equipos).</li>
+        <li><strong>Consultoría curricular:</strong> Integración de paz, ética y ciudadanía global en planes de estudio (escuelas y universidades).</li>
+        <li><strong>Diseño y evaluación de proyectos:</strong> Creación y monitoreo de iniciativas educativas con enfoque de equidad e inclusión.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h3>Portfolio</h3>
+    <div class="portfolio-grid" id="pfGrid">
+      <figure><img src="images/classroom_talk.jpg" alt="Portfolio image" data-full="images/classroom_talk.jpg"/></figure><figure><img src="images/expo_ticmas.jpg" alt="Portfolio image" data-full="images/expo_ticmas.jpg"/></figure><figure><img src="images/grad_flags.jpg" alt="Portfolio image" data-full="images/grad_flags.jpg"/></figure><figure><img src="images/group_accreditations.jpg" alt="Portfolio image" data-full="images/group_accreditations.jpg"/></figure><figure><img src="images/lucerne_group.jpg" alt="Portfolio image" data-full="images/lucerne_group.jpg"/></figure><figure><img src="images/students_activity.jpg" alt="Portfolio image" data-full="images/students_activity.jpg"/></figure><figure><img src="images/switzerland_class.jpg" alt="Portfolio image" data-full="images/switzerland_class.jpg"/></figure><figure><img src="images/un_geneva.jpg" alt="Portfolio image" data-full="images/un_geneva.jpg"/></figure><figure><img src="images/workshop_un_logos.jpg" alt="Portfolio image" data-full="images/workshop_un_logos.jpg"/></figure>
+    </div>
+    <p class="muted" style="margin-top:10px">Imágenes de formaciones, conferencias y proyectos educativos en Argentina, Chile, Costa Rica y Suiza.</p>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h3>Contacto</h3>
+      <p>Escribime a: <a href="mailto:miliroson@gmail.com">miliroson@gmail.com</a></p>
+      <p><a class="btn-link" id="lnkContact" href="https://www.linkedin.com/in/milagros-roson/" target="_blank" rel="noopener">LinkedIn</a></p>
+
+      <!-- Netlify Forms (funciona sin configuración extra en tu panel de Netlify) -->
+      <form name="contacto" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="form">
+        <input type="hidden" name="form-name" value="contacto">
+        <p style="display:none">
+          <label>Don’t fill this out: <input name="bot-field" /></label>
+        </p>
+        <label>Nombre</label>
+        <input type="text" name="nombre" required placeholder="Tu nombre" />
+        <label>Correo electrónico</label>
+        <input type="email" name="email" required placeholder="tu@email.com" />
+        <label>Mensaje</label>
+        <textarea name="mensaje" rows="5" required placeholder="¿Cómo te puedo ayudar?"></textarea>
+        <button type="submit" class="btn">Enviar mensaje</button>
+        <span class="success" id="okMsg">Gracias por contactarte — te responderé pronto.</span>
+      </form>
+
+      <!-- Opción Formspree (descomentar y poner tu ID para usarlo en lugar de Netlify)
+      <form action="https://formspree.io/f/XXXXXXXX" method="POST" class="form">
+        <label>Nombre</label>
+        <input type="text" name="name" required placeholder="Tu nombre" />
+        <label>Correo electrónico</label>
+        <input type="email" name="email" required placeholder="tu@email.com" />
+        <label>Mensaje</label>
+        <textarea name="message" rows="5" required placeholder="¿Cómo te puedo ayudar?"></textarea>
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+      -->
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Milagros Rosón</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox"><img id="lightImg" src="" alt=""/></div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Language toggle (ES default → EN when pressed)
+  const toggle = document.getElementById('toggleLang');
+  let lang = 'es';
+  toggle.addEventListener('click', () => {
+    if(lang === 'es') {
+      lang = 'en';
+      toggle.textContent = 'ES';
+      document.getElementById('heroPhrase').innerHTML = "Peace Education promotes <strong>human development</strong> and <strong>well\u2011being</strong>, accompanying people in the development of skills to understand each other, dialogue, and build shared well\u2011being.";
+      document.getElementById('ctaBtn').textContent = 'Explore my work';
+      document.getElementById('aboutTextEs').innerHTML = "I\u2019m <strong>Milagros Ros\u00f3n</strong>, a Peace Education Specialist with a Master\u2019s degree from the United Nations\u2011mandated University for Peace (UPEACE) and postgraduate studies in Human Leadership and Emotional Education. I design and facilitate learning experiences that nurture empathy, resilience, and ethical action across Argentina, Chile, Costa Rica, and Switzerland.";
+    } else {
+      lang = 'es';
+      toggle.textContent = 'EN';
+      document.getElementById('heroPhrase').innerHTML = "La Educaci\u00f3n para la Paz promueve el <strong>desarrollo pleno</strong> y el <strong>bienestar integral</strong>, acompa\u00f1ando a las personas en el desarrollo de habilidades para comprenderse, dialogar y construir bienestar com\u00fan.";
+      document.getElementById('ctaBtn').textContent = 'Explorar mi trabajo';
+      document.getElementById('aboutTextEs').innerHTML = "Soy <strong>Milagros Ros\u00f3n</strong>, especialista en <strong>Educaci\u00f3n para la Paz</strong>, con una Maestr\u00eda de la <strong>Universidad para la Paz de Naciones Unidas (UPEACE)</strong> y estudios de posgrado en <strong>Liderazgo Humano y Educaci\u00f3n Emocional</strong>. Creo y acompa\u00f1o experiencias de aprendizaje que promueven la empat\u00eda, la resiliencia y la acci\u00f3n \u00e9tica. He trabajado con organizaciones internacionales, escuelas y comunidades en <strong>Argentina, Chile, Costa Rica y Suiza</strong>.<br><br>Mi trabajo se centra exclusivamente en la Educaci\u00f3n para la Paz, desde la cual promuevo herramientas para construir una <strong>cultura de paz sostenible</strong>.";
+    }
+  });
+
+  // Simple lightbox
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightImg');
+  document.getElementById('pfGrid').addEventListener('click', (e) => {
+    const img = e.target.closest('img');
+    if(!img) return;
+    lbImg.src = img.getAttribute('data-full');
+    lb.style.display = 'flex';
+  });
+  lb.addEventListener('click', () => lb.style.display = 'none');
+
+  // Show a local success message on Netlify Forms submit (optional UX)
+  const form = document.querySelector('form[name="contacto"]');
+  const ok = document.getElementById('okMsg');
+  form.addEventListener('submit', () => {
+    setTimeout(() => ok.style.display = 'inline', 400);
+  });
+</script>
+</body>
+</html>
