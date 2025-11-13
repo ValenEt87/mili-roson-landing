@@ -122,14 +122,14 @@ toggle.addEventListener("click", () => {
   //   amanayTitle: "Amanay – Comunidad y Cultura de Paz",
   //   amanayDesc: "Simboliza la raíz social de la paz: construir vínculos de confianza, respeto y cooperación desde la comunidad.",
 
-  //   laukenTitle: "Lauken – Investigación y Reflexión sobre la Paz",
-  //   laukenDesc: "Lauken representa la quietud reflexiva y el pensamiento crítico desde el cual se generan nuevas comprensiones sobre la paz y la educación.",
+  //   AlvoradaTitle: "Alvorada – Investigación y Reflexión sobre la Paz",
+  //   AlvoradaDesc: "Alvorada representa la quietud reflexiva y el pensamiento crítico desde el cual se generan nuevas comprensiones sobre la paz y la educación.",
 
   //   auroraDetails: `<strong>Público:</strong> docentes, equipos directivos y educadores.<br><strong>Ejes:</strong> educación no violenta (CNV), resolución de conflictos, integración curricular de la paz.<br><strong>Modalidades:</strong> diseño curricular, cursos, materiales pedagógicos y acompañamiento institucional.`,
 
   //   amanayDetails: `<strong>Público:</strong> estudiantes, familias, comunidades y organizaciones sociales.<br><strong>Ejes:</strong> aprendizaje socioemocional, ciudadanía global, liderazgo humano.<br><strong>Modalidades:</strong> talleres, círculos de diálogo y proyectos colaborativos.`,
 
-  //   laukenDetails: `<strong>Público:</strong> universidades y líderes educativos.<br><strong>Ejes:</strong> teoría de la paz, educación transformadora, investigación aplicada.<br><strong>Modalidades:</strong> seminarios, publicaciones y materiales teóricos.`,
+  //   AlvoradaDetails: `<strong>Público:</strong> universidades y líderes educativos.<br><strong>Ejes:</strong> teoría de la paz, educación transformadora, investigación aplicada.<br><strong>Modalidades:</strong> seminarios, publicaciones y materiales teóricos.`,
 
 
   //   paihuenFootnote: "“Paihuen” significa estar en paz o lugar para estar en paz — un estado de tranquilidad, seguridad y libertad donde una persona puede ser ella misma.",
@@ -156,6 +156,7 @@ toggle.addEventListener("click", () => {
     navPortfolio: "Portfolio",
     navContact: "Contact",
     navContactBtn: "Contact",
+    navContactBtn2: "Contact",
 
     // HERO
     heroTag: "Consultant & Facilitator",
@@ -195,9 +196,9 @@ toggle.addEventListener("click", () => {
     amanayDesc: "It symbolizes the social roots of peace: building relationships of trust, respect, and cooperation within the community.",
     amanayDetails: `<strong>Audience:</strong> students, families, communities, and social organizations.<br><strong>Themes:</strong> socio-emotional learning, global citizenship, and human leadership.<br><strong>Formats:</strong> workshops, dialogue circles, and collaborative projects.`,
     
-    laukenTitle: "Lauken – Peace Research & Reflection",
-    laukenDesc: "Lauken represents reflective stillness and critical thinking — the space from which new understandings of peace and education emerge.",
-    laukenDetails: `<strong>Audience:</strong> universities and educational leaders.<br><strong>Themes:</strong> peace theory, transformative education, and applied research.<br><strong>Formats:</strong> seminars, publications, and theoretical materials.`,
+    AlvoradaTitle: "Alvorada – Peace Research & Reflection",
+    AlvoradaDesc: "Alvorada represents reflective stillness and critical thinking — the space from which new understandings of peace and education emerge.",
+    AlvoradaDetails: `<strong>Audience:</strong> universities and educational leaders.<br><strong>Themes:</strong> peace theory, transformative education, and applied research.<br><strong>Formats:</strong> seminars, publications, and theoretical materials.`,
 
     paihuenFootnote: "“Paihuen” means to be at peace, or a place for being at peace — a state of calm, safety, and freedom where a person can truly be themselves.",
 

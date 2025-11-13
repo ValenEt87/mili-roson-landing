@@ -44,6 +44,22 @@ header {
 .btn-rounded:hover {
   background: #77AADA;
 }
+.btn-rounded2{
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 999px; /* redondeado completo */
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  margin-top: 1rem;
+}
+
+.btn-rounded2:hover {
+  background: #77AADA;
+}
 
 .container {
   max-width: 1230px;
@@ -203,6 +219,11 @@ h3, h4 {
   gap: 24px;
   align-items:center;
 }
+.about-flex > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .about-flex img {
   width: 100%;
@@ -261,6 +282,10 @@ footer {
 @media (max-width: 980px) {
   .about-flex {
     grid-template-columns: 1fr;
+  }
+  
+  .about-flex > div {
+    align-items: center;
   }
 
   .portfolio-grid {
@@ -439,6 +464,7 @@ footer {
 
   .focus-title {
     font-size: 28px;
+    text-align: center;
   }
 
   .focus-card {
@@ -610,10 +636,6 @@ footer {
     height: 280px;
   }
 
-  .contact-form {
-    text-align: center;
-  }
-
   .contact-form .focus-label {
     align-self: center;
   }
@@ -628,9 +650,9 @@ footer {
   header nav {
     display: none;
   }
-  .btn-rounded {
+  /* .btn-rounded {
     display: none;
-  }
+  } */
   .hero .phrase {
     width: 100%;
   }
@@ -638,5 +660,26 @@ footer {
     font-size: 2rem;
     text-align: center;
     margin: .5rem 0 1rem;
+  }
+}
+/* Ambos ocultos por defecto para controlar mejor */
+#navContactBtn2 {
+  display: none;
+}
+#navContactBtn {
+  display: none;
+}
+
+/* ⚡ Mobile: mostrar SOLO el btn-rounded2 */
+@media (max-width: 620px) {
+  #navContactBtn2 {
+    display: inline-block;
+  }
+}
+
+/* ⚡ Tablet y Desktop: mostrar SOLO el btn-rounded */
+@media (min-width: 621px) {
+  #navContactBtn {
+    display: inline-block;
   }
 }
