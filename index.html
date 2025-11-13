@@ -14,7 +14,9 @@
 <header>
   <div class="container">
     <div class="brand">
-      <h1>Milagros Rosón <span style="font-size:13px;color:var(--muted);font-family:var(--font-sans);display:block">Peace Education Specialist · Consultora & Facilitadora</span></h1>
+      <h1>Milagros Rosón 
+        <!-- <span style="font-size:13px;color:var(--muted);font-family:var(--font-sans);display:block">Peace Education Specialist · Consultora & Facilitadora</span> -->
+      </h1>
       <nav>
         <!-- <a href="#home">Inicio</a> -->
         <a href="#services">Servicios</a>
@@ -73,7 +75,7 @@
 
   <section id="about">
       <div class="about-flex">
-        <div>
+        <div style="width: 92%;">
           <h3 class="focus-label">Sobre mí</h3>
           <h4 class="focus-title">Herramientas para construir una cultura de paz sostenible</h4>
           <p id="aboutTextEs">Soy <strong>Milagros Rosón</strong>, especialista en <strong>Educación para la Paz</strong>, con una Maestría de la <strong>Universidad para la Paz de Naciones Unidas (UPEACE)</strong> y estudios de posgrado en <strong>Liderazgo Humano y Educación Emocional</strong>. Creo y acompaño experiencias de aprendizaje que promueven la empatía, la resiliencia y la acción ética. He trabajado con organizaciones internacionales, escuelas y comunidades en <strong>Argentina, Chile, Costa Rica y Suiza</strong>.<br></p>
@@ -86,7 +88,7 @@
             LinkedIn</a>
           </p>
         </div>
-        <img src="images/portrait.jpg" alt="Milagros Rosón" />
+        <img src="images/imagen-mili.webp" alt="Milagros Rosón" />
     </div>
   </section>
 
@@ -100,7 +102,7 @@
         La Educación para la Paz constituye el marco integral desde el cual se desarrollan enfoques como la no violencia activa, la empatía, la resolución pacífica de conflictos, el diálogo intercultural y la educación socioemocional. Estos principios guían la labor de EduPaz en su propósito de unir el desarrollo interior con la transformación social.
       </p>
 
-    <div class="edupaz-grid container">
+    <div class="edupaz-grid ">
       <!-- AURORA -->
       <div class="edupaz-block">
         <img src="images/group_accreditations.jpg" alt="Aurora – Formación Docente y Currículum para la Paz">
@@ -188,14 +190,14 @@
           <label>Don’t fill this out: <input name="bot-field" /></label>
         </p>
 
-        <label>Nombre</label>
-        <input type="text" name="nombre" required placeholder="Tu nombre" />
+        <label for="name">Nombre</label>
+        <input id="name" name="nombre" required placeholder="Tu nombre" />
 
-        <label>Correo electrónico</label>
-        <input type="email" name="email" required placeholder="tu@email.com" />
+        <label for="email">Correo electrónico</label>
+        <input id="email" type="email" name="email" required placeholder="tu@email.com" />
 
-        <label>Mensaje</label>
-        <textarea name="mensaje" rows="5" required placeholder="¿Cómo te puedo ayudar?"></textarea>
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="mensaje" rows="5" required placeholder="¿Cómo te puedo ayudar?"></textarea>
 
         <button type="submit" class="btn-form">Enviar mensaje</button>
         <span class="success" id="okMsg">Gracias por contactarte — te responderé pronto.</span>

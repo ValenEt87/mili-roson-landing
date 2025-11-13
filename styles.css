@@ -2,7 +2,7 @@
   --bg:#F6F3EC;
   --accent:#5FAAD6;
   --accent-dark:#3D8FBD;
-  --muted:#6B7280;
+  --muted:#434954;
   --text:#0A3552;
   --font-sans: 'DM Sans', sans-serif;
   --font-serif: 'Lora', serif;
@@ -22,7 +22,7 @@ body {
 header {
   /* background: linear-gradient(180deg, #F1F7FB, #F1F7FB); */
   background: var(--bg);
-  padding: .9rem;
+  padding: .9rem 0px;
   position: sticky;
   top: 0;
   z-index: 50;
@@ -114,13 +114,16 @@ nav a {
   font-family: var(--font-serif);
   font-size: 56px;
   margin: 0px;
+  margin-bottom: .5rem;
   font-weight: 400;
+  line-height: normal;
 }
 
 .hero .phrase {
   max-width: 900px;
   margin: 0 auto;
   color: var(--muted);
+  width: 69%;
 }
 
 .hero img {
@@ -144,6 +147,7 @@ nav a {
   font-weight: 500;
   font-size: .9rem;
   letter-spacing: .3px;
+  margin-bottom: 1rem;
 }
 
 .cta {
@@ -331,11 +335,12 @@ footer {
   font-weight: 600;
   width: fit-content;
   letter-spacing: 0.5px;
+  margin: 0px;
 }
 
 .focus-title {
   font-family: var(--font-serif);
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: normal;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
@@ -505,7 +510,6 @@ footer {
 @media (max-width: 980px) {
   .edupaz-block {
     grid-template-columns: 1fr;
-    text-align: center;
   }
 
   .edupaz-block .icon {
@@ -514,6 +518,7 @@ footer {
 
   .edupaz-block img {
     height: 240px;
+    width: 100%;
   }
 }
 
@@ -563,6 +568,7 @@ footer {
   border-radius: 1000px;
   font-weight: 800;
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 /* Responsive */
@@ -581,5 +587,27 @@ footer {
 
   .contact-form .focus-label {
     align-self: center;
+  }
+
+  .edupaz-block h4 {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    margin: 0 0 0.6rem;
+    color: var(--text);
+    font-weight: 400;
+  }
+  header nav {
+    display: none;
+  }
+  .btn-rounded {
+    display: none;
+  }
+  .hero .phrase {
+    width: 100%;
+  }
+  .contact-form .focus-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: .5rem 0 1rem;
   }
 }
