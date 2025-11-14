@@ -163,7 +163,7 @@ nav a {
   max-width: 900px;
   margin: 0 auto;
   color: var(--muted);
-  width: 69%;
+  width: 67%;
 }
 
 .hero img {
@@ -223,6 +223,7 @@ h3, h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 92%;
 }
 
 .about-flex img {
@@ -294,6 +295,7 @@ footer {
 
   .hero .name {
     font-size: 44px;
+    line-height: normal;
   }
 }
 
@@ -463,7 +465,7 @@ footer {
   }
 
   .focus-title {
-    font-size: 28px;
+    font-size: 2rem;
     text-align: center;
   }
 
@@ -537,7 +539,8 @@ footer {
 
 .edupaz-block h4 {
   font-family: var(--font-serif);
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  line-height: normal;
   margin: 0 0 0.6rem;
   color: var(--text);
   font-weight: 400;
@@ -560,6 +563,9 @@ footer {
   font-size: 0.9rem;
   font-style: italic;
 }
+.footnote p {
+  margin: 0;
+}
 
 /* Responsive */
 @media (max-width: 980px) {
@@ -579,6 +585,10 @@ footer {
 
 
 /* CONTACT SECTION */
+.contact-section{
+  padding: 5rem 0;
+}
+
 .contact-card {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
@@ -675,6 +685,9 @@ footer {
   #navContactBtn2 {
     display: inline-block;
   }
+  .about-flex > div {
+  width: 100%;
+}
 }
 
 /* ⚡ Tablet y Desktop: mostrar SOLO el btn-rounded */
