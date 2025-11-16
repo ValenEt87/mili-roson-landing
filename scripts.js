@@ -68,7 +68,7 @@ toggle.addEventListener("click", () => {
   } else {
     // Volver al español recargando el HTML original
     lang = "es";
-    toggle.textContent = "Eng";
+    toggle.textContent = "ENG";
 
     // Restaurar textos (la recarga limpia todo)
     window.location.reload();

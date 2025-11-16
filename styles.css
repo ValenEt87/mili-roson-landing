@@ -74,12 +74,13 @@ header {
   gap: 12px;
 }
 
-.brand h1 {
-  font-family: var(--font-serif);
+.brand .logo {
+  font-family: var(--font-sans);
   margin: 0;
   font-size: 1.5rem;
   font-weight: 400;
-  color: var(--text);
+  color: var(--accent-dark);
+  text-decoration: none;
 }
 
 nav {
@@ -148,6 +149,10 @@ nav a {
   padding: 70px 0 40px;
   text-align: center;
   border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
 }
 
 .hero .name {
@@ -157,6 +162,7 @@ nav a {
   margin-bottom: .5rem;
   font-weight: 400;
   line-height: normal;
+  width: 70%;
 }
 
 .hero .phrase {
@@ -296,6 +302,7 @@ footer {
   .hero .name {
     font-size: 44px;
     line-height: normal;
+    width: 100%;
   }
 }
 
@@ -669,7 +676,7 @@ footer {
   .contact-form .focus-title {
     font-size: 2rem;
     text-align: center;
-    margin: .5rem 0 1rem;
+    margin: .5rem 0 .2rem;
   }
 }
 /* Ambos ocultos por defecto para controlar mejor */
@@ -687,6 +694,12 @@ footer {
   }
   .about-flex > div {
   width: 100%;
+}
+.langbtn {
+  padding: 6px .5rem;
+  margin-right: 0rem;
+  text-decoration: underline;
+  cursor: pointer;
 }
 }
 
