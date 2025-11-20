@@ -48,7 +48,7 @@ header {
   display: inline-block;
   background: var(--accent);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 1.5rem;
   border: none;
   border-radius: 999px; /* redondeado completo */
   font-weight: 600;
@@ -97,11 +97,13 @@ nav a {
   border-radius: 8px;
   font-size: .9rem;
 }
-
+a{
+  color: var(--text);
+}
 .btn-link {
   background: #5faad633;
   /* border: 1px solid rgba(10, 53, 82, 0.18); */
-  padding: 8px 14px;
+  padding: 10px 1.5rem;
   border-radius: 500px;
   cursor: pointer;
   text-decoration: none;
@@ -140,7 +142,6 @@ nav a {
   padding: 6px 10px;
   border-radius: 8px;
   margin-right: .5rem;
-  text-decoration: underline;
   cursor: pointer;
 }
 
@@ -193,7 +194,7 @@ nav a {
   font-weight: 500;
   font-size: .9rem;
   letter-spacing: .3px;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .cta {
@@ -473,11 +474,7 @@ footer {
 
   .focus-title {
     font-size: 2rem;
-    text-align: center;
-  }
-
-  .focus-card {
-    text-align: center;
+    text-align: left;
   }
 
   .focus-card .icon {
@@ -636,7 +633,7 @@ footer {
   background: var(--accent);
   border: none;
   color: white;
-  padding: 1rem;
+  padding: 1.2rem;
   border-radius: 1000px;
   font-weight: 800;
   cursor: pointer;
@@ -653,9 +650,6 @@ footer {
     height: 280px;
   }
 
-  .contact-form .focus-label {
-    align-self: center;
-  }
 
   .edupaz-block h4 {
     font-family: var(--font-serif);
@@ -675,7 +669,6 @@ footer {
   }
   .contact-form .focus-title {
     font-size: 2rem;
-    text-align: center;
     margin: .5rem 0 .2rem;
   }
 }
@@ -698,8 +691,19 @@ footer {
 .langbtn {
   padding: 6px .5rem;
   margin-right: 0rem;
-  text-decoration: underline;
   cursor: pointer;
+}
+.focus-card h4 {
+  margin-top: 2rem;
+}
+.focus-section {
+  text-align: left;
+}
+.edupaz-section .intro {
+  text-align: left;
+}
+.edupaz-section {
+  align-items: flex-start;
 }
 }
 

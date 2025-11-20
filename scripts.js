@@ -47,7 +47,7 @@ toggle.addEventListener("click", () => {
   if (lang === "es") {
     // Cambiar a inglés
     lang = "en";
-    toggle.textContent = "ESP";
+    toggle.textContent = "🌐 ESP";
 
     // Traducción de textos normales por ID
     for (const id in translations.en) {
@@ -68,7 +68,7 @@ toggle.addEventListener("click", () => {
   } else {
     // Volver al español recargando el HTML original
     lang = "es";
-    toggle.textContent = "ENG";
+    toggle.textContent = "🌐 ENG";
 
     // Restaurar textos (la recarga limpia todo)
     window.location.reload();
