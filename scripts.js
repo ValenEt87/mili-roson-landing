@@ -249,6 +249,7 @@ toggle.addEventListener("click", () => {
   form.addEventListener('submit', () => {
     setTimeout(() => ok.style.display = 'inline', 400);
   });
+  
   // Scroll suave con offset para header fijo  
   function scrollToSection(id) {
     const el = document.getElementById(id.replace('#', ''));

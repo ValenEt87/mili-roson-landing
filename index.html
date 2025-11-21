@@ -180,63 +180,44 @@
     <div class="contact-form">
       <span class="focus-label reveal" id="contactLabel">Contacto</span>
       <h3 class="focus-title reveal reveal-delay-1" id="contactTitle">Conectemos</h3>
+        <form name="contacto" method="POST" data-netlify="true" netlify data-netlify-honeypot="bot-field" class="form">
+          <input type="hidden" name="form-name" value="contacto">
+          <p style="display:none">
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
 
-      <!-- <form name="contacto" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="form">
-        <input type="hidden" name="form-name" value="contacto">
-        <p style="display:none">
-          <label>Don’t fill this out: <input name="bot-field" /></label>
-        </p>
+          <label for="name" id="contactNameLabel" class="reveal reveal-delay-1">Nombre</label>
+          <input 
+            id="name" 
+            name="nombre" 
+            required class="reveal reveal-delay-2"
+            placeholder="Tu nombre"
+            data-i18n-placeholder="contactNamePlaceholder"
+          />
 
-        <label for="name" id="contactNameLabel">Nombre</label>
-        <input id="name" name="nombre" required placeholder="Tu nombre" />
+          <label for="email" id="contactEmailLabel" class="reveal reveal-delay-1">Correo electrónico</label>
+          <input 
+            id="email" 
+            type="email" 
+            name="email" class="reveal reveal-delay-2"
+            required 
+            placeholder="tu@email.com"
+            data-i18n-placeholder="contactEmailPlaceholder"
+          />
 
-        <label for="email" id="contactEmailLabel">Correo electrónico</label>
-        <input id="email" type="email" name="email" required placeholder="tu@email.com" />
+          <label for="message" id="contactMessageLabel" class="reveal reveal-delay-1">Mensaje</label>
+          <textarea 
+            id="message" 
+            name="mensaje" 
+            rows="5" class="reveal reveal-delay-2"
+            required 
+            placeholder="¿Cómo te puedo ayudar?"
+            data-i18n-placeholder="contactMessagePlaceholder"
+          ></textarea>
 
-        <label for="message" id="contactMessageLabel">Mensaje</label>
-        <textarea id="message" name="mensaje" rows="5" required placeholder="¿Cómo te puedo ayudar?"></textarea>
-
-        <button type="submit" class="btn-form" id="contactButton">Enviar mensaje</button>
-        <span class="success" id="contactSuccess">Gracias por contactarte — te responderé pronto.</span>
-      </form> -->
-      <form name="contacto" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="form">
-        <input type="hidden" name="form-name" value="contacto">
-        <p style="display:none">
-          <label>Don’t fill this out: <input name="bot-field" /></label>
-        </p>
-
-        <label for="name" id="contactNameLabel" class="reveal reveal-delay-1">Nombre</label>
-        <input 
-          id="name" 
-          name="nombre" 
-          required class="reveal reveal-delay-2"
-          placeholder="Tu nombre"
-          data-i18n-placeholder="contactNamePlaceholder"
-        />
-
-        <label for="email" id="contactEmailLabel" class="reveal reveal-delay-1">Correo electrónico</label>
-        <input 
-          id="email" 
-          type="email" 
-          name="email" class="reveal reveal-delay-2"
-          required 
-          placeholder="tu@email.com"
-          data-i18n-placeholder="contactEmailPlaceholder"
-        />
-
-        <label for="message" id="contactMessageLabel" class="reveal reveal-delay-1">Mensaje</label>
-        <textarea 
-          id="message" 
-          name="mensaje" 
-          rows="5" class="reveal reveal-delay-2"
-          required 
-          placeholder="¿Cómo te puedo ayudar?"
-          data-i18n-placeholder="contactMessagePlaceholder"
-        ></textarea>
-
-        <button type="submit" class="btn-form reveal reveal-delay-3" id="contactButton">Enviar mensaje</button>
-        <span class="success reveal reveal-delay-3" id="contactSuccess">Gracias por contactarte — te responderé pronto.</span>
-      </form>
+          <button type="submit" class="btn-form reveal reveal-delay-3" id="contactButton">Enviar mensaje</button>
+          <span class="success reveal reveal-delay-3" id="contactSuccess">Gracias por contactarte — te responderé pronto.</span>
+        </form>
     </div>
   </div>
 </section>
