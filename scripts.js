@@ -185,8 +185,10 @@ toggle.addEventListener("click", () => {
     // EDUPAZ
     edupazLabel: "Project",
     edupazTitle: "About EduPaz Argentina",
-    edupazIntro1: `EduPaz Argentina is an initiative dedicated to strengthening a culture of peace through training programs, institutional accompaniment, and educational research. It is recognized by UNESCO and the United Nations General Assembly as a key pillar for building a Culture of Peace (Declaration and Programme of Action, 1999).`,
-    edupazIntro2: `Peace Education provides the comprehensive framework from which approaches such as active nonviolence, empathy, peaceful conflict resolution, intercultural dialogue, and socio-emotional learning are developed. These principles guide EduPaz’s work in its mission to unite inner development with social transformation.`,
+    //edupazIntro1: `EduPaz Argentina is an initiative dedicated to strengthening a culture of peace through training programs, institutional accompaniment, and educational research. It is recognized by UNESCO and the United Nations General Assembly as a key pillar for building a Culture of Peace (Declaration and Programme of Action, 1999).`,
+    //edupazIntro2: `Peace Education provides the comprehensive framework from which approaches such as active nonviolence, empathy, peaceful conflict resolution, intercultural dialogue, and socio-emotional learning are developed. These principles guide EduPaz’s work in its mission to unite inner development with social transformation.`,
+    edupazIntro1: `EduPaz Argentina is an independent initiative focused on strengthening a culture of peace through training programs, accompaniment, and educational research. It is grounded in the framework of Peace Education, recognized by UNESCO and the United Nations General Assembly as a key pillar for building a Culture of Peace (Declaration and Programme of Action, 1999).`,
+    edupazIntro2: `From this perspective, EduPaz integrates principles such as active nonviolence, empathy, peaceful conflict resolution, intercultural dialogue, and socio-emotional learning, connecting inner development with social transformation.`,
 
     auroraTitle: "Aurora – Teacher Training & Peace Curriculum",
     auroraDesc: "Aurora represents an educational awakening — bringing peace from theory into the classroom and preparing educators to be agents of change.",
