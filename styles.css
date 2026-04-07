@@ -295,9 +295,9 @@ footer {
     grid-template-columns: 1fr;
   }
   
-  .about-flex > div {
+  /* .about-flex > div {
     align-items: center;
-  }
+  } */
 
   .portfolio-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -690,6 +690,9 @@ footer {
   }
   .about-flex > div {
   width: 100%;
+}
+.about-flex {
+  height: auto;
 }
 .langbtn {
   padding: 6px .5rem;
