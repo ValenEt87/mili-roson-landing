@@ -694,6 +694,9 @@ footer {
 .about-flex {
   height: auto;
 }
+.portfolio-cont {
+    text-align: start;
+}
 .langbtn {
   padding: 6px .5rem;
   margin-right: 0rem;
